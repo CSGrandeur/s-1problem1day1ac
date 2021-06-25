@@ -1,0 +1,4 @@
+workspace
+.vscode
+*.in
+*.out
