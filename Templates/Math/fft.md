@@ -41,8 +41,8 @@ void FFT(cpx* A, int n, int len, bool op) {
             std::swap(A[i], A[rvs[i]]);
     // Start calculating
     for (int i = 1; i < n; i <<= 1) {
-		    // FFT need sin(PI / i), but IFFT need -sin(PI / i)
-		    cpx wn(cos(PI / i), sin(PI / i) * (op ? 1.0 : -1.0));
+        // FFT need sin(PI / i), but IFFT need -sin(PI / i)
+        cpx wn(cos(PI / i), sin(PI / i) * (op ? 1.0 : -1.0));
         for (int j = 0; j < n; j += (i << 1)) {
             cpx w(1.0, 0.0);
             for (int k = 0; k < i; ++k, w = w * wn) {
