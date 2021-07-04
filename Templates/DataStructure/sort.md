@@ -42,3 +42,41 @@ void QuickSort(int a[], int left, int right)
     QuickSort(a, low + 1, right);
 }
 ```
+
+### 堆排序
+
+```c
+void adjustHeap(int *arr, int i, int len)
+{
+    int temp = arr[i];
+    for (int j = i * 2 + 1; j < len; j = j * 2 + 1)
+    {
+        if (j + 1 < len && arr[j] < arr[j + 1])
+            ++j;
+
+        if (arr[j] > temp)
+        {
+            arr[i] = arr[j];
+            i = j;
+        }
+        else
+            break;
+    }
+    arr[i] = temp;
+}
+
+void heapSort(int *arr, int len)
+{
+    for (int i = len / 2 - 1; i >= 0; --i)
+        adjustHeap(arr, i, len);
+
+    for (int j = len - 1; j > 0; --j)
+    {
+        int temp = arr[j];
+        arr[j] = arr[0];
+        arr[0] = temp;
+        adjustHeap(arr, 0, j);
+    }
+}
+```
+
