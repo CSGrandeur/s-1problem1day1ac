@@ -80,3 +80,38 @@ void heapSort(int *arr, int len)
 }
 ```
 
+### 计数排序
+
+```c
+void countSort(int *arr, int len)
+{
+    if (len < 2)
+        return;
+
+    int max = INT_MIN;
+    int min = INT_MAX;
+    for (int i = 0; i < len; ++i)
+    {
+        if (arr[i] > max)
+            max = arr[i];
+        if (arr[i] < min)
+            min = arr[i];
+    }
+    if (max == min)
+        return;
+
+    int countlen = max - min + 1;
+    int *count = (int *)calloc(countlen, sizeof(int));
+    memset(count, 0, sizeof(int) * countlen);
+
+    for (int i = 0; i < len; ++i)
+        ++count[arr[i] - min];
+    for (int i = 0, index = 0; i < countlen; ++i)
+    {
+        while (count[i]--)
+            arr[index++] = i + min;
+    }
+    free(count);
+}
+```
+
