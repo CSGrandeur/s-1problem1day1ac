@@ -46,7 +46,7 @@ void QuickSort(int a[], int left, int right)
 ### 堆排序
 
 ```c
-void adjustHeap(int *arr, int i, int len)
+void AdjustHeap(int arr[], int i, int len)
 {
     int temp = arr[i];
     for (int j = i * 2 + 1; j < len; j = j * 2 + 1)
@@ -65,17 +65,17 @@ void adjustHeap(int *arr, int i, int len)
     arr[i] = temp;
 }
 
-void heapSort(int *arr, int len)
+void HeapSort(int arr[], int len)
 {
     for (int i = len / 2 - 1; i >= 0; --i)
-        adjustHeap(arr, i, len);
+        AdjustHeap(arr, i, len);
 
     for (int j = len - 1; j > 0; --j)
     {
         int temp = arr[j];
         arr[j] = arr[0];
         arr[0] = temp;
-        adjustHeap(arr, 0, j);
+        AdjustHeap(arr, 0, j);
     }
 }
 ```
@@ -83,7 +83,7 @@ void heapSort(int *arr, int len)
 ### 计数排序
 
 ```c
-void countSort(int *arr, int len)
+void CountSort(int arr[], int len)
 {
     if (len < 2)
         return;
