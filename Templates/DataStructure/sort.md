@@ -4,7 +4,7 @@
 
 ```cpp
 int tmp[maxn];
-MergeSort(int a[], int left, int right)
+void MergeSort(int a[], int left, int right)
 {
     if(left >= right - 1) return 0;
     int mid = left + right >> 1;
