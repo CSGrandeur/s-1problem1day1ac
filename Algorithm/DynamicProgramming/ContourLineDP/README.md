@@ -101,12 +101,12 @@ dp[i & 1][j] = dp[~i & 1][j] + dp[i & 1][j - 1];
 // `j` is this block
 for status in contour:
     nextstatus = status;
-    if status(j) == 有插头:                                         // 有左边过来的插头
-        set nextstatus(j + 1) = 有插头                        // 路径要往右边去，当处理 编号为`j+1`的格子时候，格子会查看编号为`j+1`轮廓状态是否有插头
-        dp[now][nextstatus] += dp[nex][status];        // 传统 DP 的计数转移
-        insert nextstatus into nexcontour;                  // 记录新状态到状态空间，在处理下一个格子时就从转移的状态空间取状态
-    if status(j+1) == 有插头:                                     // 有上边过来的插头
-        set nextstatus(j) = 有插头                               // 这个信息在处理下一行的格子才会用到
+    if status(j) == 有插头:                        // 有左边过来的插头
+        set nextstatus(j + 1) = 有插头             // 路径要往右边去，当处理 编号为`j+1`的格子时候，格子会查看编号为`j+1`轮廓状态是否有插头
+        dp[now][nextstatus] += dp[nex][status];    // 传统 DP 的计数转移
+        insert nextstatus into nexcontour;         // 记录新状态到状态空间，在处理下一个格子时就从转移的状态空间取状态
+    if status(j+1) == 有插头:                      // 有上边过来的插头
+        set nextstatus(j) = 有插头                 // 这个信息在处理下一行的格子才会用到
         dp[now][nextstatus] += dp[nex][status];        
         insert nextstatus into nexcontour;                  
     // .. 其他情况不再详述
