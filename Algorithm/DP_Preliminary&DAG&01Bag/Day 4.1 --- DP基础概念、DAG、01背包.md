@@ -1,5 +1,5 @@
 # Day 4.1 --- DP基础概念、DAG、01背包
-
+[动态规划.pptx](https://github.com/1282279732/s-1problem1day1ac/files/7136544/default.pptx)
 
 
 ## 一、DP基础概念
