@@ -7,7 +7,7 @@ DP的本质是在局部求出子问题的最优解，再通过各子问题的解
 在（有根）树这一结构中，子节点天然是父节点的子问题。所以树形DP的大致步骤就是：从树根开始，对于每一个节点，求出问题在它所有的子节点的子树上的解，再根据这些解，得出在当前节点的整个子树下的解。
 
 由于需要访问各节点的整个子树，通常需要用到DFS来解决树形DP的题
-![image](resource/129937923-51d25b95-47a2-4d07-b466-71e505f78bfb.png)
+![image](resource/dp_cmp.png)
 
 接下来，我们用一道简单的题目来了解什么是树形DP，以及它是怎么实现的
 
@@ -157,15 +157,15 @@ void dfs(int x)
 ## 树的重心
 
 对于无根树上的每一个点，计算其所有子树中最大的子树节点数，这个值最小的点就是这棵树的重心。
-![image](resource/129941912-417bb7e4-fa21-4069-b81b-03bc2eb1a1f8.png)
+![image](resource/tree1.png)
 
 这棵树的重心为3号点
 
-![image](resource/129941941-fb3388f6-5229-44d9-836e-8c275f48f172.png)
+![image](resource/tree2.png)
 
 这棵树的重心为1号点
 
-![image](resource/129941965-56924a9e-d563-4436-8030-50ceefaeeea7.png)
+![image](resource/tree3.png)
 
 这棵树的重心为1号点
 
@@ -228,17 +228,17 @@ void dfs(int x)
 
 假设下列图中的边长都为1，则
 
-![image](resource/129941912-417bb7e4-fa21-4069-b81b-03bc2eb1a1f8.png)
+![image](resource/tree1.png)
 
 这棵树的直径为5
 
-![image](resource/129941941-fb3388f6-5229-44d9-836e-8c275f48f172.png)
+![image](resource/tree2.png)
 
 这棵树的直径为3
 
 
 
-![image](resource/129941965-56924a9e-d563-4436-8030-50ceefaeeea7.png)
+![image](resource/tree3.png)
 
 这棵树的直径为3
 
