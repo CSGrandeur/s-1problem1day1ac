@@ -111,7 +111,7 @@ $$
 
 组合三角的值刚好等于杨辉三角的值，例如图中的20代表的就是从6个数种选3个数组合数。这个表的行和列都从0开始记。
 
-![img](https://imgconvert.csdnimg.cn/aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vaW1hZ2VzL2NuYmxvZ3NfY29tL3RoaW5rLXR3aWNlLzE1MDU0MTcvb18lZTYlOGQlOTUlZTglOGUlYjcuUE5H)
+![image](resource/Pascal's triangle.png)
 
 ```CPP
 for(int i=0;i<=n;i++){
@@ -336,7 +336,7 @@ $$
 
 我们可以把喜欢数学，语文，编程的学生集合分别用A,B,C表示。学生总数是A∪*B*∪*C*=*A*+*B*+*C*−AB*−*BC*−*AC*+*ABC至于这是为什么，我们可以用一个文氏图来看一下
 
-![img](https://img-blog.csdnimg.cn/20190428215913801.png)
+![image](resource/inclusion-exclusion principle.png)
 
 在文氏图中出现的所有集合，都遵循奇加偶减的规则，加到一起，就是至少喜欢一门学科的学生数量。
 
