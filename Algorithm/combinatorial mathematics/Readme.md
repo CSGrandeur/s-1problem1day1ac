@@ -714,14 +714,14 @@ $$
 x的幂次实际代表最后选了几个物品，系数表示组合方式。
 那么把问题改成排列，比如我们要从8个物品中农取4个做不同排列、我们不难发现，如果用2个a1和2个a3组合，排列数为4!/(2！2！）。如果一个a1和3个a3不同的排列数是4！/（1！3！）选4个物品做排列的方案一共有10种。这10中方案转换成排列就是这样。
 所以所有排列的和形式转换为
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210420230119171.png)
+![image](resource/formula1.png)
 如果要构造这种形式的式子，我们可以改变母函数的定义方式。也就是我们说的指数型母函数
 $$
 \begin{equation*}F(x)= \sum_{n}{a_n\frac{x^n}{n!}}\end{equation*}
 $$
 
 放到这道题里，构造的母函数应该是
-![///](https://img-blog.csdnimg.cn/20210420230356857.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTc1NzUwNw==,size_16,color_FFFFFF,t_70)
+![image](resource/formula2.png)
 把分母提取乘幂次的阶乘是因为这种排列要同时乘幂次的阶乘。所以选四个元素排列的答案应该是70。
 到这里关于指数型母函数最基本的性质就介绍完了，接下来用两个例题来让大家更熟悉这个问题。
 
@@ -781,9 +781,8 @@ $$
 
 
 实际上这个式子就是指数函数在x=0是展开的泰勒级数，也就是麦克劳林级数。下来问题就迎刃而解了
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210420232058653.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTc1NzUwNw==,size_16,color_FFFFFF,t_70)
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210420232101834.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTc1NzUwNw==,size_16,color_FFFFFF,t_70)
+![image](resource/formula3.png)
+![image](resource/formula4.png)
 稍微进行一点推导，就能推出这个式子。当然如果你不知道指数函数是怎样。其实也没关系，我们只需要自己设f（x)等于这个东西，自己构造一个函数也能达到一样的效果，只用化简在构造回去就能解决问题.所以很多时候，我们需要不用了解泰勒函数的具体展开只需要自己构造函数也能达到相同的效果，只是泰勒函数的指数函数形式比较常见，遇到更多问题，可以更灵活的解决。公式推出来之后，只用写快速幂就能通过这道题目了。
 
 ```cpp
