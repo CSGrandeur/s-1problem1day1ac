@@ -52,7 +52,7 @@ g++ main.cpp -o main.exe
 
 作为一个没学过编程的新手，看到上面的内容已经开始头大了，能不能不要管什么编辑器、编译器、执行、参数，我就想写代码，然后跑起来。
 
-可以的，这就是集成开发环境，在一个有界面的软件里，集成了编辑器、编译器，且把编译、执行所需的一套指令打包在了快捷键里，就想打游戏时候所谓的“金手指”、“按键精灵”，让你“一键连招”。
+可以的，这就是集成开发环境（integrated development environment，IDE），在一个有界面的软件里，集成了编辑器、编译器，且把编译、执行所需的一套指令打包在了快捷键里，就想打游戏时候所谓的“金手指”、“按键精灵”，让你“一键连招”。
 
 ![编辑器与编译器](./resource/text_and_coding.jpg)
 
@@ -91,7 +91,6 @@ g++ main.cpp -o main.exe
 每道题有分数，与解题时间、通过数据组数有关，得到一个综合分数，最后比较总分。
 
 
-
 ### 官方认定赛事类
 
 #### ACM-ICPC
@@ -110,6 +109,10 @@ g++ main.cpp -o main.exe
 - 目前国内ICPC信息总站：http://icpc.pku.edu.cn/index.htm
 - ICPC官方网站：https://icpc.global/
 
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=808188965&bvid=BV1y34y1B7PQ&cid=484846892&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+【ICPC世界总决赛莫斯科站的回忆】 https://www.bilibili.com/video/BV1y34y1B7PQ/?share_source=copy_web&vd_source=c617b7e2cc89265d6f82e07b3c66bc6c
+
 #### CCPC
 
 中国大学生程序设计竞赛（China Collegiate Programming Contest，CCPC）与ICPC赛制一致，每年也有多个赛站，各赛站优秀的队伍能够获得资格参加决赛，一般而言各赛站与决赛为同等级的国家级竞赛，是国内主办的最高级别算法竞赛。
@@ -120,6 +123,19 @@ g++ main.cpp -o main.exe
 - 主办方：中国大学生程序设计竞赛组委会
 - CCPC官方网站：https://ccpc.io/
 
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=706271009&bvid=BV18Q4y147tZ&cid=1343604196&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+【CCPC2023深圳-混剪】 https://www.bilibili.com/video/BV18Q4y147tZ/?share_source=copy_web&vd_source=c617b7e2cc89265d6f82e07b3c66bc6c
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=578432468&bvid=BV1oz4y1w7tB&cid=1332784644&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+【CCPC2023深圳-滚榜及颁奖】 https://www.bilibili.com/video/BV1oz4y1w7tB/?share_source=copy_web&vd_source=c617b7e2cc89265d6f82e07b3c66bc6c
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=280917548&bvid=BV1Xc411X7AH&cid=1332043703&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+【CCPC2023深圳-正赛5小时全程直播回放】 https://www.bilibili.com/video/BV1Xc411X7AH/?share_source=copy_web&vd_source=c617b7e2cc89265d6f82e07b3c66bc6c
+
+
 #### GDCPC
 
 广东省大学生程序设计竞赛（Guangdong Collegiate Programming Contest，GDCPC）旨在将中国大学生程序设计竞赛（CCPC）引入广东省校园，提高广东省学生学习程序设计的兴趣和能力，推动广东省大学计算机课程的教学改革，为计算机程序设计方面有特长的同学提供展示才能的舞台。同时也可为各高校选拔、培训参加CCPC 的队员、为加强广东省内各高校之间的交流和相互学习提供了机会。从2019年开始，中国大学生程序设计竞赛 （CCPC）挂靠教育部计算机类教学指导委员会，经向 CCPC 组委会申请，广东省大学生程序设计竞赛隶属于CCPC，也称为 CCPC 广东省赛，其参赛报名将归入 CCPC。赛事由广东省计算机学会主办，广东省计算机学会普及工作委员会（广东省大学生程序设计竞赛的指导委员会）承办。
@@ -129,6 +145,10 @@ g++ main.cpp -o main.exe
 - 举办时间：每年5-6月
 - 主办方：广东省计算机学会
 - GDCPC官方网站：http://www.gdcpc.cn/
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=229753412&bvid=BV14h411T7PW&cid=1164443946&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+【气球飘扬的赛场——第二十届广东省大学生程序设计竞赛（GDCPC）暨中国大学生程序设计竞赛(CCPC)广东省赛】 https://www.bilibili.com/video/BV14h411T7PW/?share_source=copy_web&vd_source=c617b7e2cc89265d6f82e07b3c66bc6c
 
 #### 百度之星
 
@@ -216,3 +236,192 @@ AtCoder是日本最大的算法竞技网站，也是全球第二流行的算法�
 - 主办方：无明确提及
 - 官方网站：https://atcoder.jp/
 
+## 开启编程之旅
+
+### 下载安装一个IDE
+
+不少大学基础课会使用 Visual Studio，可能是因为有中文界面、简单易上手、大多机房都会安装的缘故。但入门编程，特别是对算法竞赛感兴趣的新手，非常不推荐使用 Visual Studio，主要在于其编译机制不完全符合C/C++标准，与评测机的不一致会导致一个新手常见问题：“本地跑的好好的，为什么提交就是不对呢”。
+
+日常编程而言，更推荐 Visual Studio Code 或 Jetbrains 的 Clion。不过为了轻量、简单、易上手，这里以 Codeblocks 为例开始编程之旅。
+
+在这里下载：https://www.codeblocks.org/downloads/binaries/
+
+注意选择“mingw-nosetup.zip”这个版本
+
+![](./resource/codeblocks_download.jpg)
+
+
+![](./resource/codeblocks_download2.jpg)
+
+如果官网下载不太顺利，可以从这个网盘链接下载：
+
+https://share.weiyun.com/QMLclZWZ
+
+解压到任意目录即可，最好**路径上不要有中文**，比如“`E:/IDE/CodeBlocks`” 就可以。
+
+双击打开它
+
+![](./resource/codeblocks_open.jpg)
+
+第一次打开会有一些弹窗，默认下一步就好
+
+点击“File”，选择“New->Project”
+
+![](./resource/codeblocks_newpro_1.jpg)
+
+新建“Console Application”
+
+![](./resource/codeblocks_newpro_2.jpg)
+
+各选项都按默认下一步，然后选择一个只有字母数字下划线的路径（中文系统里有各种中文文件夹，避免路径带中文或空格， 这个软件不兼容这样的路径），起一个纯字母的名称
+
+![](./resource/codeblocks_newpro_3.jpg)
+
+在左侧打开“main.cpp”，就可以看到一个“Hello World”程序了
+
+![](./resource/codeblocks_newpro_4.jpg)
+
+按下键盘的“F9”试一下，应该**编译**并**运行**出一个黑框框（命令行）
+
+![](./resource/codeblocks_newpro_5.jpg)
+
+### 写一个自己的程序
+
+C++ 兼容 C 语言的语法，所以我们不必拘泥于“.c”还是“.cpp”这样的扩展名，新手不用管那么多，无论是写C++风格还是C语言风格，一律在C++的编译环境（.cpp文件）中写就好。
+
+#### 头文件
+
+为了避免从电脑直接看得懂的“01011...”写起，或者从“MOV”、“ADD”这类非常底层的“汇编语言”写起，我们学习一个相对“高级”的语言，即C语言。那些高频使用的“向屏幕输出一些字符”等操作，C语言已经帮我们做好了，我们只需要“告诉”C语言，让C语言去要求电脑做这些事。
+
+“告诉”这个动作需要特定的指令来做，而C语言怎么知道这个指令是做什么的呢？它把不同类型的功能封装在了不同的文件里，所以我们要先让编译器知道，我们要用哪些文件里的功能，就要把这些文件“包含”进来，这就是“include”指令，包含进来的文件叫“头文件”。
+
+现在要包含一个处理“输入输出”这类操作的功能包，这个头文件是“stdio.h”，“std”是标准（standard）的缩写，“io”是“input/output”的缩写。
+
+这样接下来的程序，就可以用“stdio.h”里包含的功能。
+
+包含头文件的语法是：
+
+- 一个`#`符号，表示现在要做一些“特殊”的事情，“#”后面不同的内容对应不同的事情
+- `#`后紧跟“include”，表示我们现在要做的是“包含头文件”这样的事情，至于能做其它什么事情，以后再了解
+- 头文件用一对`<>`包裹
+
+```
+#include<stdio.h>
+```
+
+#### 变量
+
+要计算总要有计算的对象，基础的计算对象就是“变量”，可以类比学过的代数，$x,y,z...$ 这样的代数，然后把数字代进去就能计算不同的数据。
+
+代数有整数有小数，在电脑中还有字符，要让电脑看得懂，能合理的用“0101...”这样的二进制存储，需要告诉它这些代数是什么类型，这就是变量类型。
+
+先了解最常用的：
+
+- int：整数（1，2，-6... 这样的数）
+- double： 浮点数（0.4、2.5、5.0...这样有小数部分的精度的数）
+
+变量还有一些其它的类型，以后再进一步了解。
+
+#### 主函数
+
+C语言的功能是由“函数”组成的，初高中学过“函数”的概念，是把一些代数丢进去，完成固定的一套计算。比如 $f(y)=x*2+1$ ，C语言的函数可以延申这个概念，把一些变量（变量可以是 $x,y,z$ 这样的代数，也可以是更复杂的结构）丢进去，完成固定的程序逻辑。
+
+一个程序运行，总得有一个开端，即从哪里开始，这就是“主函数”的作用，告诉系统从这里开始。
+
+函数可以有返回值（算完之后告诉调用它的地方它算出了个什么类型的东西），也可以没有返回值，但主函数必须有返回值，这是C语言的规则，它用来告诉操作系统这个程序执行的是否成功。
+
+```cpp
+int main() {
+    // 主函数的代码 
+    return 0;
+}
+```
+
+主函数的语法是：
+
+- `int`：主函数返回值必须是 `int`，不能是别的
+- `main`：表示函数的名字，`main`这个名字是专门用于主函数的，不能用其它名字，大小写也不能改
+- `()`：一个小括号里写函数的参数，主函数有特定的参数，不过可以省略，初学时可以先不管它的参数
+- `{}`：包裹定义主函数要做的事的代码
+- `return 0;`：主函数包裹的代码的末尾必须是`return 0;`，表示当执行到这里的时候，向调用主函数的“东西”（比如操作系统的某个进程）告知本程序正常结束。
+
+这里“`//`”是注释语法，用于写一些帮助自己回忆代码是干什么的注释，对电脑来说这些内容不存在，纯粹是给人看的。
+
+#### 程序语句
+
+C语言中常规程序的语句末尾都要有分号“`;`”，表示一个语句的结束（以下语句的含义后文会说明）。
+
+```cpp
+int a, b;
+a = 3;
+b = 4;
+int c = a + b;
+```
+
+#### 定义变量
+
+```cpp
+int a, b;
+```
+
+这里定义两个变量 `a` 和 `b`，他们是 `int` 类型。
+
+#### 赋值
+
+数学中“`=`”表示两个变量/数字相等，而程序中，“`=`”表示将右边的值存入左边的变量，变量是一个可以改变的代数。
+
+```cpp
+int a = 3, b;
+b = 5;
+```
+
+#### 输入
+
+让用户在弹出的黑框框中输入想要的数字，再用输入的数字计算，就有了用户交互，这样程序就可以做很多事了。
+
+我们前面已经`#include<stdio.h>`，所以可以用输入输出相关的功能了：
+
+```cpp
+int a, b;
+scanf("%d%d", &a, &b);
+```
+
+`scanf` 也是函数，`"%d%d", &a, &b`就是传给它的参数。
+
+- `"%d%d"` 表示要输入两个整数，这里`%`用于标识输入，`%`之后跟的内容具体定义了要输入什么，好让电脑在内存中做好准备，`%d`就是要输入一个整数（`int`），如果是`%lf`就是要输入一个`double`。
+- `&a`对应前一个`%d`，用户在黑框框输入的第一个数就会存入`a`这个变量，同理`&b`对应第二个`%d`，`&`是“取地址”符号，`&a`表示指向`a`的内存地址，这里先不用了解那么多，知道这个格式能输入数据即可。
+
+#### 计算
+
+计算`a+b`的和，很直观在代码中写`a+b`即可，它得到的结果可以存入一个变量，也可以直接当参数传给函数。
+
+比如 `int c = a + b;` 就把 `a+b` 的结果存入 `c`。
+
+#### 输出
+
+`printf("%d\n", a + b);` 就把`a+b` 的结果作为参数传给 `printf`这个函数，这里的`%d` 和`scanf`的`%d`含义一样，`printf`用于输出，所以就是把`a+b`的结果作为整数的格式输出。 `\n` 表示输出后换一行（在文本编辑器里换一行就是敲一下回车）。
+
+#### 一个基本的`a+b`
+
+```cpp
+#include<stdio.h>
+int main() {
+    int a, b;
+    scanf("%d%d", &a, &b);
+    printf("%d\n", a + b);
+    return 0;
+}
+```
+
+![](./resource/codeblocks_a_plus_b.jpg)
+
+### 评测系统的机制
+
+把代码通过网页（或软件）提交到评测系统，评测系统会在后台编译并执行你的代码，将一系列你看不到的输入数据发送给你的程序，将输出的内容和答案对比，然后告诉你你的代码是否正确。
+
+新手经常会问“我样例都通过了为什么提交了还不对呢”，这里再次强调一下：评测系统会测许多并不会让你看到的其它数据。
+
+找一个OJ的`a+b`的题，提交你的代码试试把
+
+
+![](./resource/oj_a_plus_b.jpg)
